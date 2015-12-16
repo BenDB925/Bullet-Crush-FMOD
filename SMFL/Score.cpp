@@ -16,7 +16,7 @@ void Score::Init()
 	highScoresText = std::vector<std::string>();
 
 	std::string line;
-	std::ifstream myfile("highscores.txt");
+	std::ifstream myfile("./highscores.txt");
 	if (myfile.is_open())
 	{
 		while (std::getline(myfile, line))

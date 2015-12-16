@@ -80,14 +80,14 @@ void LoadContent()
 {
 
 	// Check that assets are been loaded
-	m_tex.loadFromFile("resources/sprite.png");
-	m_titleTex.loadFromFile("resources/title.png");
+	m_tex.loadFromFile("./resources/sprite.png");
+	m_titleTex.loadFromFile("./resources/title.png");
 	m_titleSpr.setTexture(m_titleTex);
 	m_titleSpr.setTextureRect(sf::IntRect(0, 0, 600, 800));
 
 	for (int i = 0; i < m_MAXLEVELS; i++)
 	{
-		std::string text = "resources/Level";
+		std::string text = "./resources/Level";
 		text += std::to_string(i);
 		text += ".png";
 		m_bgTex.loadFromFile(text);

@@ -3,9 +3,9 @@
 #include "SFML\System\Vector2.hpp"
 
 
-const char * SoundManager::BACKGROUND_MUSIC_LVL_1 = "resources/stage1.mp3";
-const char * SoundManager::BACKGROUND_MUSIC_LVL_2 = "resources/stage1.mp3";
-const char * SoundManager::EXPLOSION = "resources/exp.wav";
+const char * SoundManager::BACKGROUND_MUSIC_LVL_1 = "../resources/stage1.mp3";
+const char * SoundManager::BACKGROUND_MUSIC_LVL_2 = "../resources/stage1.mp3";
+const char * SoundManager::EXPLOSION = "../resources/exp.wav";
 
 
 SoundManager::SoundManager()
